@@ -14,11 +14,4 @@ class Solution {
         }
         return hIndex;
     }
-    
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        int[] citations = {3, 5};
-        int result = sol.solution(citations);
-        System.out.println("H-Index: " + result);  // 출력: H-Index: 3
-    }
 }
